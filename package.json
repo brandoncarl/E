@@ -1,0 +1,27 @@
+{
+  "name": "eplus",
+  "version": "0.1.0",
+  "description": "\"Powerful error handling for Node\"",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandoncarl/E.git"
+  },
+  "keywords": [
+    "node",
+    "errors"
+  ],
+  "author": "Brandon Carl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandoncarl/E/issues"
+  },
+  "homepage": "https://github.com/brandoncarl/E",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
