@@ -4,9 +4,9 @@
 $ npm install eplus
 ```
 
-### Quick Start
+### Quick Start  
 
-```
+```js
 
 var E = require("eplus")
 
@@ -35,6 +35,5 @@ if (err.is("Authentication Error"))
   // Send "That email and password aren't recognized"
 else
   // Send "An unknown error occurred. Please contact us for help."
-
 
 ```
