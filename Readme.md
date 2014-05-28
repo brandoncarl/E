@@ -28,7 +28,7 @@ E.addTransport({
 // And how to use it!
 
 if (/* errors during authentication /*)
-  err = new E.Authentication("Bad authentication", { mod : "Auth", fxn : "login", user : email });
+  err = new E.AuthenticationError("Bad authentication", { mod : "Auth", fxn : "login", user : email });
 
 // Test error types (for instance, when choosing what to show to the user)
 if (err.is("Authentication Error"))
